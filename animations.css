@@ -95,3 +95,17 @@
         background-color: lightblue;
     }
 }
+
+.title-indent {
+    margin-left: 20px;
+    margin-top: 7px;
+}
+
+.body-indent {
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+p {
+    font-size: 18px;
+}
