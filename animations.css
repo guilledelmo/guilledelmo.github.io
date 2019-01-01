@@ -12,25 +12,11 @@
     margin-left: 90px;
     background-color: orange;
     animation-name: animation1;
-    border-radius: 5px;
+    border-radius: 15px;
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
 
-.anim1:hover {
-    color: white;
-    animation-name: border-hover1;
-    animation-duration: 0.5s;
-}
-
-@keyframes border-hover1 {
-    0% {
-        border-radius: 5px;
-    }
-    100% {
-        border-radius: 15px;
-    }
-}
 
 @keyframes animation1 {
     0% {
@@ -74,10 +60,6 @@
     animation-iteration-count: infinite;
 }
 
-.anim2:hover {
-    color: white;
-}
-
 @keyframes animation2 {
     0% {
         background-color: red;
@@ -94,6 +76,13 @@
     100% {
         background-color: lightblue;
     }
+}
+
+.anim1:hover {
+  box-shadow: 10px 10px 5px grey;
+}
+.anim2:hover {
+  box-shadow: 10px 10px 5px grey;
 }
 
 .title-indent {
